@@ -4,9 +4,7 @@
   "description": "## 1. Demo And Installation",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
-    "start:backend": "cd backend && npm run dev",
-    "start:frontend": "cd frontend && npm start",
+    "start": "cd backend && npm start",
     "prebuild": "cd backend && npm install && cd ../frontend && npm install",
     "build": "cd frontend && npm run build",
     "postbuild": "mv -f frontend/build backend/src/public"
