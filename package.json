@@ -1,0 +1,24 @@
+{
+  "name": "foodmine-react",
+  "version": "1.0.0",
+  "description": "## 1. Demo And Installation",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "prebuild": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "postbuild": "mv -f frontend/build backend/src/public"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "mongodb": "^6.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  }
+}
