@@ -1,7 +1,7 @@
 # 🍔 TNMX-FooD 🍕
 
 ## 🚀 Overview
-TNMX-FooD is a **cutting-edge** web-based application built using the **MERN** stack (**MongoDB, Express.js, React.js, Node.js**). It provides a seamless experience for users to **browse, rate, and purchase food online** while offering robust administrative controls for managing food listings dynamically for Admin on admin panel. 🍽️✨
+TNMX-FooD is a **cutting-edge** web-based application built using the **MERN** stack (**MongoDB, Express.js, React.js, Node.js**). It provides a seamless experience for users to **browse, rate, and purchase food online** while offering robust administrative controls for managing food listings dynamically on Admin panel. 🍽️✨
 
 ## 🌍 Live Demo
 [🎉 Click here to explore TNMX-FooD 🍽️](https://tnmx-food.onrender.com/)
